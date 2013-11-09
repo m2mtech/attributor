@@ -21,6 +21,7 @@
 		5BB1460E182EAC4500A464C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB145F0182EAC4500A464C9 /* UIKit.framework */; };
 		5BB14616182EAC4500A464C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BB14614182EAC4500A464C9 /* InfoPlist.strings */; };
 		5BB14618182EAC4500A464C9 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB14617182EAC4500A464C9 /* AttributorTests.m */; };
+		5BB14628182EC4A100A464C9 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB14627182EC4A100A464C9 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5BB14615182EAC4500A464C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BB14617182EAC4500A464C9 /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
 		5BB14621182EBC6600A464C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5BB14626182EC4A100A464C9 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		5BB14627182EC4A100A464C9 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5BB145FE182EAC4500A464C9 /* Main.storyboard */,
 				5BB14601182EAC4500A464C9 /* AttributorViewController.h */,
 				5BB14602182EAC4500A464C9 /* AttributorViewController.m */,
+				5BB14626182EC4A100A464C9 /* TextStatsViewController.h */,
+				5BB14627182EC4A100A464C9 /* TextStatsViewController.m */,
 				5BB14604182EAC4500A464C9 /* Images.xcassets */,
 				5BB145F3182EAC4500A464C9 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 				5BB145FD182EAC4500A464C9 /* AttributorAppDelegate.m in Sources */,
 				5BB14603182EAC4500A464C9 /* AttributorViewController.m in Sources */,
 				5BB145F9182EAC4500A464C9 /* main.m in Sources */,
+				5BB14628182EC4A100A464C9 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
