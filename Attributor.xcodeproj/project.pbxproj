@@ -53,6 +53,7 @@
 		5BB14613182EAC4500A464C9 /* AttributorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttributorTests-Info.plist"; sourceTree = "<group>"; };
 		5BB14615182EAC4500A464C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BB14617182EAC4500A464C9 /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		5BB14621182EBC6600A464C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		5BB145E0182EAC4400A464C9 = {
 			isa = PBXGroup;
 			children = (
+				5BB14621182EBC6600A464C9 /* README.md */,
 				5BB145F2182EAC4500A464C9 /* Attributor */,
 				5BB14611182EAC4500A464C9 /* AttributorTests */,
 				5BB145EB182EAC4500A464C9 /* Frameworks */,
