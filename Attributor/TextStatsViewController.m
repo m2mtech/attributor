@@ -63,10 +63,10 @@
 
 - (void)updateUI
 {
-    self.colorfulCharactersLabel.text = [NSString stringWithFormat:@"%d colorful characters",
-                                         [[self charactersWithAttribute:NSForegroundColorAttributeName] length]];
-    self.outlinedCharactersLabel.text = [NSString stringWithFormat:@"%d outlined characters",
-                                         [[self charactersWithAttribute:NSStrokeWidthAttributeName] length]];
+    self.colorfulCharactersLabel.text = [NSString stringWithFormat:@"%lu colorful characters",
+                                         (unsigned long)[[self charactersWithAttribute:NSForegroundColorAttributeName] length]];
+    self.outlinedCharactersLabel.text = [NSString stringWithFormat:@"%lu outlined characters",
+                                         (unsigned long)[[self charactersWithAttribute:NSStrokeWidthAttributeName] length]];
 }
 
 @end
